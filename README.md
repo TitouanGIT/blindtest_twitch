@@ -25,6 +25,7 @@ docker compose up --build -d
 - Ouvre `http://localhost:8080/` (joueur)
 - `http://localhost:8080/mod` (modération)
 - `http://localhost:8080/overlay` (overlay pour OBS, fond transparent)
+- `http://localhost:8080/results` (resultat et stats)
 
 ## Notes
 - Le serveur sert le client statique (Vite build) et gère Socket.IO + endpoints `/api/suggest`, `/api/track/:id`.
