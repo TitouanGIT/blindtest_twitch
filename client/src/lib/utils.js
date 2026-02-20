@@ -1,0 +1,1 @@
+export function ms(s){return s*1000;} export function formatMs(ms){return `${(ms/1000).toFixed(1)}s`;}
